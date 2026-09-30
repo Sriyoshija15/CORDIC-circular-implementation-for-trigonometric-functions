@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../AMDDesignTools/2025.2/Vivado/data/rsb/busdef" \
+"../../../../Reconfigurable_CORDIC_Project.srcs/sources_1/new/cordic_core.v" \
+"../../../../Reconfigurable_CORDIC_Project.srcs/sources_1/new/mahony_filter_1.v" \
+"../../../../Reconfigurable_CORDIC_Project.srcs/sources_1/new/quaternion_integrate.v" \
+"../../../../Reconfigurable_CORDIC_Project.srcs/sources_1/new/vector_normalize.v" \
+"../../../../Reconfigurable_CORDIC_Project.srcs/sim_1/new/tb_mahony_filter_euroc.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

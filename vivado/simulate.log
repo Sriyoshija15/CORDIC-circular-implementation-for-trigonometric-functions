@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+sample 0: q0=8909 q1=-2731 q2=-13355 q3=-1805
+sample 100: q0=9747 q1=-2923 q2=-12679 q3=-1935
+sample 200: q0=9447 q1=-3027 q2=-12911 q3=-1783
+sample 300: q0=8869 q1=-3245 q2=-13281 q3=-1627
+sample 400: q0=9387 q1=-3387 q2=-12823 q3=-2023
+sample 500: q0=9635 q1=-3449 q2=-12573 q3=-2313
+sample 600: q0=8847 q1=-3689 q2=-13123 q3=-2019
+sample 700: q0=8845 q1=-3611 q2=-13155 q3=-1977
+sample 800: q0=9483 q1=-3811 q2=-12523 q3=-2623
+sample 900: q0=9335 q1=-3907 q2=-12539 q3=-2923
+SUMMARY N_ITER=14: stall=50 period2=4 norm2_min=267783116 norm2_max=268556828
+FINAL q: q0=8713 q1=-3907 q2=-13143 q3=-2109
+Done. 1000 samples processed, output written to C:/Users/sriyo/Documents/CORDIC_AHRS_Project/rtl_quat_N14.csv
+$finish called at time : 3440015 ns : File "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sim_1/new/tb_mahony_filter_euroc.v" Line 105

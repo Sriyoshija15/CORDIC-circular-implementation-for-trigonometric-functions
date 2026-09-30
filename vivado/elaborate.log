@@ -1,0 +1,26 @@
+Vivado Simulator v2025.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/AMDDesignTools/2025.2/Vivado/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_mahony_filter_euroc_behav xil_defaultlib.tb_mahony_filter_euroc xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sim_1/new/tb_mahony_filter_euroc.v" Line 1. Module tb_mahony_filter_euroc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sources_1/new/mahony_filter_1.v" Line 1. Module mahony_filter(N_ITER=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sources_1/new/vector_normalize.v" Line 1. Module vector_normalize(N_ITER=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sources_1/new/cordic_core.v" Line 1. Module cordic_core(N_ITER=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sources_1/new/quaternion_integrate.v" Line 1. Module quaternion_integrate(N_ITER=14,FRAC_BITS=14) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sources_1/new/vector_normalize.v" Line 1. Module vector_normalize(N_ITER=14,VEC_LEN=4) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/sriyo/.Xilinx/Reconfigurable_CORDIC_Project/Reconfigurable_CORDIC_Project.srcs/sources_1/new/cordic_core.v" Line 1. Module cordic_core(N_ITER=14) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.cordic_core(N_ITER=14)
+Compiling module xil_defaultlib.vector_normalize(N_ITER=14)
+Compiling module xil_defaultlib.vector_normalize(N_ITER=14,VEC_L...
+Compiling module xil_defaultlib.quaternion_integrate(N_ITER=14,F...
+Compiling module xil_defaultlib.mahony_filter(N_ITER=14)
+Compiling module xil_defaultlib.tb_mahony_filter_euroc
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_mahony_filter_euroc_behav
